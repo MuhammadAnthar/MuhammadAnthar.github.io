@@ -1,0 +1,22 @@
+body{
+  font-family:"Lora",serif;
+  font-weight:400;
+  letter-spacing:.2px;
+  line-height:1.7;
+}
+
+.primary-font,
+.navbar,
+.nav-link,
+.btn,
+.badge{
+  font-family:"Alata",sans-serif;
+}
+
+section h3{
+  font-family:"Alata",sans-serif;
+}
+
+.card-title{
+  font-family:"Alata",sans-serif;
+}

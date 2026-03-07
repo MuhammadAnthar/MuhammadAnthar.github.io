@@ -1,0 +1,77 @@
+# Navigation
+[nav_about]
+other = "Tentang"
+
+[nav_experience]
+other = "Pengalaman"
+
+[nav_education]
+other = "Pendidikan"
+
+[nav_projects]
+other = "Proyek"
+
+[nav_achievements]
+other = "Pencapaian"
+
+[nav_contact]
+other = "Kontak"
+
+[search_placeholder]
+other = "Cari..."
+
+# Sections
+[about]
+other = "Tentang Saya"
+
+[experience]
+other = "Pengalaman"
+
+[education]
+other = "Pendidikan"
+
+[projects]
+other = "Proyek"
+
+[achievements]
+other = "Pencapaian"    
+
+[contact]
+other = "Hubungi Saya"
+
+# Contact form
+[contact_email_placeholder]
+other = "Masukkan email Anda"
+
+[contact_message_placeholder]
+other = "Tulis pesan Anda"
+
+# Footer
+[recent_posts]
+other = "Postingan Terbaru"
+
+# Common terms
+[read]
+other = "Baca"
+
+[toc]
+other = "Daftar Isi"
+
+[tags]
+other = "Tag"
+
+[social]
+other = "Media Sosial"
+
+[copyright]
+other = "Hak cipta dilindungi"
+
+[email_text]
+other = "Lihat website ini"
+
+[page_not_found]
+other = "Halaman tidak ditemukan"
+
+# Date formats
+[min_read]
+other = "menit membaca"

@@ -1,0 +1,140 @@
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
+<section id="experience" class="py-5">
+      <div class="container">
+        <h3 class="text-center">Pengalaman</h3>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+            <div class="experience-container px-3 pt-2">
+              <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
+                <li class="nav-item px-1 bg-transparent" role="presentation">
+                  <div class="nav-link active bg-transparent" aria-selected="true" role="tab"
+                    data-bs-toggle="pill" id="magang-tab" data-bs-target="#pills-magang" aria-controls="pills-magang">
+                    Magang
+                  </div>
+                </li>
+
+                <li class="nav-item px-1 bg-transparent" role="presentation">
+                  <div class="nav-link bg-transparent" aria-selected="true" role="tab"
+                    data-bs-toggle="pill" id="organisasi-tab" data-bs-target="#pills-organisasi" aria-controls="pills-organisasi">
+                    Organisasi
+                  </div>
+                </li>
+              </ul>
+
+              <div class="tab-content pb-3 bg-transparent" id="pills-tabContent">
+                <div class="tab-pane fade bg-transparent show active" role="tabpanel" id="pills-magang"
+                  aria-labelledby="magang-tab">
+                  <div>
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                      <div>
+                        <span class="h4">Media Kode Indonesia</span>
+                        <span class="p-2">
+                          <span data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-original-title="Perusahaan berbasis teknologi">
+                            <i class="fas fa-info-circle fa-xs"></i>
+                          </span>
+                        </span>
+                        <small>-</small>
+                        <a href="https://mk-indonesia.com/index.html" target="_blank">MKI</a>
+                      </div>
+
+                      <div class="d-block">
+                        <div class="float-end education-date-pill">
+                          <i class="fas fa-calendar-alt"></i>
+                          <span>Jan 2025 - Feb 2025</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="pb-2 pb-3">
+                      <p>
+                        Membangun pipeline end-to-end dari data foto/video untuk menghasilkan social graph berbasis wajah,
+                        mencakup deteksi wajah, ekstraksi fitur, dan clustering. Mengimplementasikan clustering adaptif
+                        untuk menjaga kualitas cluster sehingga tiap cluster konsisten merepresentasikan satu individu.
+                        Menyediakan repositori dan dokumentasi untuk enable pengembangan lanjutan
+                        (mis. social analytics, attendance tracking, event monitoring).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade bg-transparent" role="tabpanel" id="pills-organisasi"
+                  aria-labelledby="organisasi-tab">
+                  <div>
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                      <div>
+                        <span class="h4">Staf Divisi Olahraga HIMATIKA UIN Jakarta</span>
+                        <span class="p-2">
+                          <span data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-original-title="Bertanggung jawab dalam pengelolaan keuangan divisi serta mendukung pelaksanaan program kerja.">
+                            <i class="fas fa-info-circle fa-xs"></i>
+                          </span>
+                        </span>
+                        <small>-</small>
+                        <a href="https://himatika.uinjakarta.id/" target="_blank">HIMATIKA</a>
+                      </div>
+
+                      <div class="d-block">
+                        <div class="float-end education-date-pill">
+                          <i class="fas fa-calendar-alt"></i>
+                          <span>Jan 2020 - Jan 2021</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="pb-2 pb-3">
+                      <p>
+                        Berperan sebagai bendahara Divisi Olahraga dengan tanggung jawab dalam pengelolaan dana kegiatan,
+                        pencatatan keuangan, dan mendukung kelancaran pelaksanaan program kerja divisi.
+                      </p>
+                      <ul>
+                        <li>Mengelola pemasukan dan pengeluaran dana kegiatan divisi.</li>
+                        <li>Menyusun pencatatan serta laporan keuangan kegiatan secara rapi dan terstruktur.</li>
+                        <li>Berkolaborasi dengan pengurus divisi untuk mendukung pelaksanaan program kerja.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                      <div>
+                        <span class="h4">Ketua MPK SMAN 112 Jakarta</span>
+                        <span class="p-2">
+                          <span data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-original-title="Memimpin koordinasi organisasi serta mengawasi pelaksanaan program kerja bersama perwakilan kelas.">
+                            <i class="fas fa-info-circle fa-xs"></i>
+                          </span>
+                        </span>
+                        <small>-</small>
+                        <a href="https://www.instagram.com/mpkosis112/?hl=id" target="_blank">MPK SMAN 112 Jakarta</a>
+                      </div>
+
+                      <div class="d-block">
+                        <div class="float-end education-date-pill">
+                          <i class="fas fa-calendar-alt"></i>
+                          <span>Jan 2024 - Des 2024</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="pb-2 pb-3">
+                      <p>
+                        Memimpin koordinasi organisasi dan mengawasi pelaksanaan program kerja guna mendukung tata kelola
+                        organisasi yang efektif.
+                      </p>
+                      <ul>
+                        <li>Mengoordinasikan agenda dan keputusan organisasi.</li>
+                        <li>Mengawasi pelaksanaan program kerja secara terarah.</li>
+                        <li>Menjalin kolaborasi dengan pengurus OSIS dan perwakilan kelas.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{{ end }}

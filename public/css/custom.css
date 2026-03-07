@@ -1,0 +1,23 @@
+/* ===== One page per section (Snap Scroll) ===== */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* Area yang discroll */
+body {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* Semua section jadi 1 layar */
+section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Biar tidak ketutup navbar (navbar kamu fixed/overlay saat scroll) */
+section[id] {
+  scroll-margin-top: 90px; /* sesuaikan tinggi navbar */
+}

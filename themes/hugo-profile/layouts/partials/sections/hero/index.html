@@ -1,0 +1,83 @@
+{{ if .Site.Params.hero.enable | default false }}
+{{- $hero := .Site.Language.Params.hero | default .Site.Params.hero -}}
+<div id="content">
+    <section id="hero" class="py-5 align-middle">
+      <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
+            <span class="subtitle">Halo, saya</span>
+
+            <h1 class="hero-name">
+              <span>Muhammad Anthar</span>
+              <span>Jailani Putra</span>
+            </h1>
+
+            <h2 class="hero-role">Data Enthusiast</h2>
+
+            <p class="hero-content">
+              Data enthusiast dan fresh graduate yang tertarik pada analisis data, visualisasi, dan eksplorasi data
+              untuk menghasilkan insight yang bermakna serta mendukung pengambilan keputusan berbasis data.
+            </p>
+
+            <div class="row hero-actions">
+              <div class="col-auto h-100">
+                <a href="https://drive.google.com/file/d/1w48hx4ksHgSwb_sCWzUUW1HxigZ7R253/view"
+                  class="btn btn-outline-primary"
+                  target="_blank">
+                  Lihat CV
+                </a>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muh.antharjailani@gmail.com"
+                  target="_blank"
+                  class="btn btn-outline-primary">
+                  Hubungi Saya
+                </a>
+              </div>
+
+              <div class="col-auto px-0 h-100">
+                <span class="px-1">
+                  <a href="https://github.com/MuhammadAnthar" target="_blank" class="btn btn-outline-primary" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
+                <div class="hero-photo-wrap" style="--hero-photo: url('/images/Anthar-Non.jpeg');">
+                  <img
+                    src="/images/Anthar-Non.jpeg"
+                    alt="Foto profil Muhammad Anthar"
+                    class="hero-photo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom-svg d-md-block d-lg-block d-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" viewBox="0 0 201 201">
+          <g id="Group_1168" data-name="Group 1168" transform="translate(-384 -1392)">
+            <rect width="12" height="2" rx="1" transform="translate(391 1392) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1500) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1446) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1554) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1419) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1527) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1473) rotate(90)" fill="#1d8fff"/>
+            <rect width="12" height="2" rx="1" transform="translate(391 1581) rotate(90)" fill="#1d8fff"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+{{ end }}

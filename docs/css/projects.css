@@ -1,0 +1,157 @@
+/* =========================
+   PROJECTS CAROUSEL - FINAL CLEAN
+   ========================= */
+
+#projects h3 {
+  margin: 0 0 12px !important;
+}
+
+#projects .projects-carousel {
+  position: relative;
+  overflow: visible !important;
+}
+
+#projects .projects-viewport {
+  position: relative;
+  overflow: visible !important;
+  padding: 0 56px 34px !important; 
+}
+
+#projects .projects-track,
+#projects .projects-track.row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-start !important;
+
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  gap: 16px;
+  margin: 0 !important;
+  padding: 0 0 24px !important;
+
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+
+  scrollbar-width: none;
+}
+
+#projects .projects-track::-webkit-scrollbar,
+#projects .projects-track.row::-webkit-scrollbar {
+  display: none;
+}
+
+#projects .projects-track > [class*="col-"],
+#projects .projects-track.row > [class*="col-"] {
+  flex: 0 0 auto !important;
+  scroll-snap-align: start;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+
+#projects .projects-track .card {
+  margin: 12px 0 !important;
+}
+
+@media (min-width: 992px) {
+  #projects .projects-track > [class*="col-"],
+  #projects .projects-track.row > [class*="col-"] {
+    width: calc((100% - 32px) / 3) !important;
+    max-width: calc((100% - 32px) / 3) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #projects .projects-viewport {
+    padding: 0 52px 30px !important;
+  }
+
+  #projects .projects-track > [class*="col-"],
+  #projects .projects-track.row > [class*="col-"] {
+    width: calc((100% - 16px) / 2) !important;
+    max-width: calc((100% - 16px) / 2) !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #projects .projects-viewport {
+    padding: 0 44px 28px !important;
+  }
+
+  #projects .projects-track > [class*="col-"],
+  #projects .projects-track.row > [class*="col-"] {
+    width: 88% !important;
+    max-width: 88% !important;
+  }
+}
+
+#projects .pc-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: rgba(255,255,255,.80);
+  backdrop-filter: blur(10px);
+
+  color: #0f172a;
+  font-size: 26px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+
+#projects .pc-prev {
+  left: 8px;
+}
+
+#projects .pc-next {
+  right: 8px;
+}
+
+#projects .pc-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+#projects .pc-btn:hover{
+  background: rgba(255,255,255,.92);
+  color: #0f172a;
+}
+
+body.dark #projects .pc-btn{
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.30);
+  color: #ecf4ff;
+}
+
+body.dark #projects .pc-btn:hover{
+  background: rgba(15,23,42,.88);
+  color: #ffffff;
+}
+
+#projects .card,
+#projects .card-body,
+#projects .card-footer,
+#projects .card-text,
+#projects .pb-2 {
+  background-color: var(--secondary-color) !important;
+}
+
+#projects,
+#projects .container,
+#projects .projects-carousel,
+#projects .projects-viewport,
+#projects .projects-track > [class*="col-"] {
+  overflow: visible;
+}

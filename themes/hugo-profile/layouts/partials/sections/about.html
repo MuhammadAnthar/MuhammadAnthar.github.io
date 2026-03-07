@@ -1,0 +1,120 @@
+{{ if .Site.Params.about.enable | default false }}
+{{- $about := .Site.Language.Params.about | default .Site.Params.about -}}
+<section id="about" class="py-0 py-sm-5">
+      <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">Tentang Saya</h3>
+
+        <div class="row justify-content-center px-3">
+          <div class="col-12 col-lg-10 col-xl-9">
+            <div class="about-panel">
+
+              <div class="content">
+                <p class="about-text mb-0">
+                  Saya adalah seorang <strong>data enthusiast</strong> dan lulusan
+                  <strong>UIN Syarif Hidayatullah Jakarta</strong> yang tertarik pada pengolahan data, analisis, dan
+                  pemanfaatan teknologi untuk menghasilkan insight yang bernilai. Saya memiliki semangat belajar yang
+                  tinggi dan antusias untuk terus berkembang di bidang data science serta analisis data. Selain itu,
+                  saya juga menghargai pentingnya kerja sama tim, komunikasi yang baik, dan kemampuan beradaptasi dalam
+                  menghadapi tantangan baru.
+                </p>
+              </div>
+
+              <div class="skills-summary">
+                <div class="skills-summary-card">
+                  <h4>Hard Skills</h4>
+                  <p>
+                    Data Analysis, Data Wrangling, Exploratory Data Analysis (EDA), Data Visualization,
+                    Statistical Analysis, Basic Machine Learning Concepts.
+                  </p>
+                </div>
+
+                <div class="skills-summary-card">
+                  <h4 class="stack-title">Soft Skills</h4>
+                  <p>
+                    Berpikir Analitis, Kerja Sama Tim, Kepemimpinan, Adaptif terhadap Lingkungan Baru,
+                    Komunikasi yang Efektif, Problem Solving.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-tools mt-4">
+                <div class="row g-4">
+                  <div class="col-12 col-md-6">
+                    <div class="stack-card h-100">
+                      <h4 class="stack-title">Exploratory Data</h4>
+                      <div class="stack-items">
+                        <a href="https://www.python.org/" target="_blank" class="tool-link" title="Python">
+                          <img src="/images/icons8-python-48.png" alt="Python">
+                        </a>
+                        <a href="https://seaborn.pydata.org/" target="_blank" class="tool-link" title="Seaborn">
+                          <img src="/images/seaborn-icon_.png" alt="Seaborn">
+                        </a>
+                        <a href="https://numpy.org/" target="_blank" class="tool-link" title="NumPy">
+                          <img src="/images/icons8-numpy-48.png" alt="NumPy">
+                        </a>
+                        <a href="http://pandas.pydata.org/" target="_blank" class="tool-link" title="Pandas">
+                          <img src="/images/icons8-pandas-48.png" alt="Pandas">
+                        </a>
+                        <a href="https://matplotlib.org/" target="_blank" class="tool-link" title="Matplotlib">
+                          <img src="/images/icons8-matplotlib-48.png" alt="Matplotlib">
+                        </a>
+                        <a href="https://www.microsoft.com/id-id/microsoft-365/excel" target="_blank" class="tool-link" title="Excel">
+                          <img src="/images/icons8-excel-48.png" alt="Excel">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="stack-card h-100">
+                      <h4 class="stack-title">Database Management</h4>
+                      <div class="stack-items">
+                        <a href="https://www.postgresql.org/" target="_blank" class="tool-link" title="PostgreSQL">
+                          <img src="/images/icons8-postgresql-48.png" alt="PostgreSQL">
+                        </a>
+                        <a href="https://docs.cloud.google.com/bigquery/docs/sandbox" target="_blank" class="tool-link" title="BigQuery">
+                          <img src="/images/bigquery.png" alt="BigQuery">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="stack-card h-100">
+                      <h4 class="stack-title">Data Visualization</h4>
+                      <div class="stack-items">
+                        <a href="https://www.tableau.com/" target="_blank" class="tool-link" title="Tableau">
+                          <img src="/images/icons8-tableau-software-48.png" alt="Tableau">
+                        </a>
+                        <a href="https://lookerstudio.google.com/" target="_blank" class="tool-link" title="Looker Studio">
+                          <img src="/images/icons8-google-looker-48.png" alt="Looker Studio">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="stack-card h-100">
+                      <h4 class="stack-title">ML & DL Frameworks</h4>
+                      <div class="stack-items">
+                        <a href="https://www.tensorflow.org/" target="_blank" class="tool-link" title="TensorFlow">
+                          <img src="/images/icons8-tensorflow-48.png" alt="TensorFlow">
+                        </a>
+                        <a href="https://pytorch.org/" target="_blank" class="tool-link" title="PyTorch">
+                          <img src="/images/icons8-pytorch-48.png" alt="PyTorch">
+                        </a>
+                        <a href="https://scikit-learn.org/" target="_blank" class="tool-link" title="Scikit-learn">
+                          <img src="/images/scikit-learn.png" alt="Scikit-learn">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{{ end }}

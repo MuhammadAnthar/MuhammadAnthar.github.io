@@ -1,0 +1,88 @@
+{{ if .Site.Params.education.enable | default false }}
+{{- $education := .Site.Language.Params.education | default .Site.Params.education -}}
+<section id="education" class="py-5">
+        <div class="container">
+            <h3 class="text-center">Pendidikan</h3>
+
+            <div class="education-grid">
+
+            <!-- CARD 1 -->
+            <div class="edu-card">
+                <div class="edu-card-top">
+                <div class="edu-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div class="edu-main">
+                    <div class="edu-date">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Sep 2022 - Feb 2026</span>
+                    </div>
+
+                    <h4 class="edu-title">Sarjana Matematika</h4>
+
+                    <a href="https://uinjkt.ac.id/id" target="_blank" class="edu-school">
+                    Universitas Islam Negeri Syarif Hidayatullah Jakarta
+                    </a>
+
+                    <div class="edu-meta">
+                    <span class="edu-meta-pill">GPA: 3.4 / 4.0</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="edu-preview">
+                    Selama masa studi, saya mempelajari dasar matematika, statistika, dan analisis data yang menjadi
+                    fondasi dalam pengolahan dan pemodelan data. Saya mengambil peminatan Data Science yang
+                    memperdalam kemampuan dalam analisis data, eksplorasi data, serta pemanfaatan metode statistik
+                    untuk menghasilkan insight dari data.
+                </div>
+
+                <div class="edu-tags">
+                    <span>Exploratory Data Analysis</span>
+                    <span>Data Mining</span>
+                    <span>Statistical Methods</span>
+                    <span>Multivariate Statistics</span>
+                    <span>Database Systems</span>
+                    <span>Linear Models</span>
+                    <span>Natural Language Processing</span>
+                    <span>Mathematical Modeling</span>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="edu-card">
+                <div class="edu-card-top">
+                <div class="edu-badge">
+                    <i class="fas fa-school"></i>
+                </div>
+
+                <div class="edu-main">
+                    <div class="edu-date">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Jul 2019 - Jul 2022</span>
+                    </div>
+
+                    <h4 class="edu-title">Sekolah Menengah Atas (MIPA)</h4>
+
+                    <a href="https://sman112jakarta.sch.id/" target="_blank" class="edu-school">
+                    SMA Negeri 112 Jakarta
+                    </a>
+                </div>
+                </div>
+
+                <div class="edu-preview">
+                Selama menempuh pendidikan di SMAN 112 Jakarta, saya mengembangkan minat pada bidang matematika
+                dan sains yang kemudian menjadi dasar dalam melanjutkan studi pada program studi matematika di
+                perguruan tinggi. Namun selain pada bidang akademik, saya juga aktif dalam berbagai kegiatan organisasi, baik menjadi anggota, ketua, ataupun pengawas. Pengalaman tersebut memberikan
+                sesuatu yang berharga dalam mengelola organisasi, bekerja sama dalam tim, serta memimpin berbagai 
+                program kerja yang mendukung pengembangan diri dan kontribusi positif bagi lingkungan sekolah.
+                </div>
+
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
