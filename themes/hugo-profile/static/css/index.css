@@ -1318,3 +1318,58 @@
       grid-template-columns: 1fr;
     }
   }
+
+  .skills-summary-card p {
+    margin-bottom: 0.5rem;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, var(--primary-color), transparent);
+  margin: 45px 0; 
+  opacity: 0.25;
+  width: 100%;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+body.dark .section-divider {
+  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);
+  opacity: 0.15;
+}
+
+.stack-card {
+  transition: transform 0.3s ease;
+}
+
+#projects .card-title {
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0 !important;
+}
+
+.project-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--primary-color), transparent);
+  margin: 12px 0 18px 0;
+  opacity: 0.3;
+  width: 100%; 
+}
+
+body.dark .project-divider {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), transparent);
+  opacity: 0.2;
+}
+
+.card-text {
+  line-height: 1.6;
+  opacity: 0.85;
+}
