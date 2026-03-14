@@ -768,6 +768,8 @@ params:
           - "Bootstrap"
           - "Javascript"
         links:
+        links:
+        links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github

@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://hugo-profile.netlify.app/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://localhost:1313/categories/"
+                href="https://hugo-profile.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://hugo-profile.netlify.app/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://hugo-profile.netlify.app/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://hugo-profile.netlify.app/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://localhost:1313/"
+                href="https://hugo-profile.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://hugo-profile.netlify.app/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://hugo-profile.netlify.app/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://hugo-profile.netlify.app/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://localhost:1313/tags/"
+                href="https://hugo-profile.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://hugo-profile.netlify.app/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://hugo-profile.netlify.app/en/tags/"
                 />
   </url>
 </urlset>
